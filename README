@@ -1,0 +1,13 @@
+    ->Task1
+-In principal m-am folosit de functiile din biblioteca cJSON pentru a extrage informatiile din fisierul .json
+-Informatiile le vom folosi pentru a creea fisierul .bmp(imaginea cu tabla de sudoku)
+
+    ->Task2
+-Ideea principala in acest task este de oglindi fiecare numar in parte(am aprofundat mai mult in)
+
+    ->Task3
+-Pe fiecare portiune de pixeli unde se afla un numar(in imagine) am numarat fiecare pixel roz care apare acolo.
+-Practic m-am ghidat dupa numarul de pixeli roz.
+-Problema au devenit doar la diferentierea cifrelor 2, 3 si 5, respectiv 6 si 9(daca ne uitam in hint-ul oferit vom observa ca au acelasi numar de pixeli roz).
+-Am reusit sa diferenties cifrele 2, 3 si 5 cu ajutorul pozitiilor unor pixeli care difera.
+-Pe aceeasi idee am mers si pentru a putea diferentia numarul 6 de 9(am verificat pixelii care diferentiaza cele doua numere intre ele).
